@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer utilities{
+    .inset-shadow-sm{
+        box-shadow: 0px 0px 4px 4px black inset;
+    }
+
+    .custom-scroll{
+        scrollbar-color: rgb(68, 72, 99) rgba(241, 241, 241, 0);
+        
+    }
+}
